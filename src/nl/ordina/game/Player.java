@@ -3,7 +3,7 @@ package nl.ordina.game;
 public class Player {
 
     public static int HOLES_PER_SIDE = 6;
-    private static int STONES_PER_HOLE = 4;
+    public static int STONES_PER_HOLE = 4;
 
     private Pit[] pits = new Pit[HOLES_PER_SIDE];
     private Mancala mancala = new Mancala();

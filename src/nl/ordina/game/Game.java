@@ -91,6 +91,14 @@ public class Game {
         System.out.println(playerOnThePlay.getName() + " has the turn.");
     }
 
+    public Player getPlayerOnThePlay() {
+        return playerOnThePlay;
+    }
+
+    public Player getWaitingPlayer() {
+        return waitingPlayer;
+    }
+
     @Override
     public String toString() {
         String player2MancalaText = player2.getMancala().toString();
