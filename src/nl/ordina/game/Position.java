@@ -1,6 +1,6 @@
 package nl.ordina.game;
 
-public class Position {
+public abstract class Position {
 
     protected int numberOfStones;
 
